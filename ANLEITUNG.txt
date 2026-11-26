@@ -1,0 +1,79 @@
+IntegraSoma Rechnungen – Einrichtung
+====================================
+Funktioniert auf Windows und Mac. Benötigt wird Google Chrome
+(oder Microsoft Edge). Safari und Firefox werden nicht unterstützt.
+
+
+A) Auf GitHub hochladen (einmalig)
+----------------------------------
+1. github.com öffnen und anmelden (bzw. kostenloses Konto anlegen).
+2. Oben rechts auf "+" > "New repository".
+3. Repository name: integrasoma-rechnungen
+   Sichtbarkeit: "Public" > "Create repository".
+4. Auf "uploading an existing file" klicken.
+5. ALLE Dateien aus diesem Ordner hineinziehen (nicht den Ordner selbst)
+   und unten auf "Commit changes" klicken.
+6. Oben "Settings" > links "Pages" > bei "Branch" "main" und "/ (root)"
+   auswählen > "Save".
+7. Nach 1–2 Minuten ist die App erreichbar unter:
+   https://IHR-GITHUB-NAME.github.io/integrasoma-rechnungen/
+   (den genauen Link zeigt GitHub oben unter Settings > Pages an)
+
+
+B) Als App installieren (pro Computer einmalig)
+-----------------------------------------------
+1. Den Link in Google Chrome öffnen.
+2. Rechts in der Adresszeile auf das Symbol "App installieren" klicken
+   (alternativ: Menü ⋮ > "Streamen, speichern und teilen" >
+   "Seite als App installieren").
+3. Danach startet die App in einem eigenen Fenster:
+   - Windows: über das Startmenü bzw. das Symbol auf dem Desktop
+   - Mac: über das Dock bzw. das Launchpad
+   Sie funktioniert auch ohne Internet.
+
+
+C) Automatische Sicherung einrichten (einmalig, WICHTIG)
+--------------------------------------------------------
+Die Rechnungen werden nur auf diesem Computer im Browser gespeichert.
+Ohne Sicherung gehen sie verloren, wenn der Browser zurückgesetzt wird
+oder der Computer kaputtgeht.
+
+1. Einen Ordner anlegen, am besten in einem Cloud-Ordner:
+   - Windows: z. B. OneDrive > IntegraSoma > Sicherungen
+   - Mac:     z. B. iCloud Drive > IntegraSoma > Sicherungen
+2. In der App: Einstellungen > "Sicherungsordner wählen und automatisch
+   sichern".
+3. Den Ordner auswählen und bei der Chrome-Abfrage
+   "Bei jedem Besuch zulassen" wählen.
+   Fragt Chrome später erneut, links unten auf "Sicherung freigeben" klicken.
+
+
+D) Rechnungen als PDF
+---------------------
+Einmalig unter Einstellungen einen PDF-Ordner wählen, z. B.
+OneDrive > IntegraSoma > Rechnungen (Windows) bzw.
+iCloud Drive > IntegraSoma > Rechnungen (Mac).
+Danach wird jede Rechnung automatisch dort als PDF gespeichert.
+
+
+E) Vor der ersten Rechnung prüfen
+---------------------------------
+Unter Einstellungen bitte kontrollieren bzw. ergänzen:
+- Adresse, E-Mail, Telefon, Bankverbindung
+- MwSt.-Nummer (N° TVA), damit sie auf jeder Rechnung steht
+- MwSt.-Satz (voreingestellt: 17 %)
+Unter "Leistungen" sind wingwave®, SomaRelease und ThetaHealing®
+mit ihren Preisen bereits angelegt.
+
+
+Hinweise
+--------
+- Kundendaten werden NICHT ins Internet hochgeladen. Online liegt nur das
+  leere Programm, alle Daten bleiben auf Ihrem Computer.
+- Jeder Computer hat seine eigenen Daten. Umzug auf einen neuen Computer:
+  App dort installieren > Einstellungen > "Sicherung einspielen" und die
+  Datei "...-Sicherung-aktuell.json" aus dem Sicherungsordner auswählen.
+- Den Browserverlauf NICHT mit "Website-Daten / Cookies" löschen, ohne
+  vorher eine aktuelle Sicherung zu haben.
+- Updates: geänderte Dateien erneut auf GitHub hochladen. Die App holt sie
+  beim nächsten Start mit Internet automatisch.
